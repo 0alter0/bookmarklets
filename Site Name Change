@@ -1,0 +1,1 @@
+javascript:(function(){    var customTitle = prompt("Enter your custom title:");    if (customTitle !== null && customTitle.trim() !== "") {        document.title = customTitle;        alert("Title changed to: " + customTitle);    } else {        alert("Invalid custom title. The title was not changed.");    }})();
