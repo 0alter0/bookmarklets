@@ -1,0 +1,1 @@
+javascript:(function() {    var selectedText = window.getSelection().toString();    if (selectedText) {        var utterance = new SpeechSynthesisUtterance(selectedText);        speechSynthesis.speak(utterance);    } else {        alert("No text selected. Please select some text on the webpage.");    }})();
