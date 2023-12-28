@@ -1,2 +1,5 @@
 # my bookmarklets. Just some stuff I made, have fun ig.
-test
+What is a bookmarklet?
+A bookmarklet is a bookmark that has JavaScript functions.
+How can I get it to work?
+Copy all code (must start with javascript:) and drag it into your bookmarks bar. Once you click it, it should do said function.
