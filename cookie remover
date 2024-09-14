@@ -1,0 +1,2 @@
+Note, this may not work (Copy from only line 2)
+javascript:(function(){document.cookie.split(';').forEach(c=>document.cookie=c.replace(/=.*/, '=;expires=Thu, 01 Jan 1970 00:00:00 GMT'));alert('Cookies removed.');})();
