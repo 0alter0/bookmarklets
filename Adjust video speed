@@ -1,1 +1,2 @@
 javascript:(function() {    var video = document.querySelector('video');    if (video) {        var speed = prompt('Enter video speed (5 is max):');        if (speed && !isNaN(speed)) {            video.playbackRate = parseFloat(speed);        } else {            alert('Invalid input. Please enter a valid number for video speed.');        }    } else {        alert('No video found on this page.');    }})();
+this CAN be used to bypass ads on Youtube AND Twitch. It does bug out on twitch
